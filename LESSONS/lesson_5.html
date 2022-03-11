@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 0;
+            padding: 0 0;
+        }
+
+        [href$=by] {
+            color: red;
+        }
+
+        [href*=yandex] {
+            color: green;
+        }
+
+        img[src$=jpg] {
+            border: 5px solid red;
+        }
+
+        img[src*=sEA] {
+            border: 15px solid green;
+            width: 300px;
+            height: 300px;
+        }
+
+        img[src$='.png'] {
+            border: 15px solid yellow;
+            width: 200px;
+            height: 200px;
+        }
+
+        .title {
+            font-weight: 700;
+            text-align: left;
+            margin: 0 0;
+            padding: 5px 0;
+            color: black;
+            margin-top: 50px;
+        }
+
+        .date {
+            color: green;
+            font-size: 14px;
+        }
+
+        .champions {
+            color: red;
+            font-size: 14px;
+        }
+
+        .link {
+            text-decoration: none;
+        }
+
+        .body {
+            color: black;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        #title {
+            font-weight: 700;
+            text-align: left;
+            margin: 0 0;
+            padding: 5px 0;
+            color: black;
+            margin-top: 50px;
+        }
+
+        #date {
+            color: green;
+            font-size: 14px;
+        }
+
+        #champions {
+            color: red;
+            font-size: 14px;
+        }
+
+        #link {
+            text-decoration: none;
+        }
+
+        #body {
+            color: black;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        h2 {
+            font-weight: 700;
+            text-align: left;
+            margin: 0 0;
+            padding: 5px 0;
+            color: black;
+            margin-top: 50px;
+        }
+
+        h2+p {
+            color: green;
+            font-size: 14px;
+        }
+
+        h2~p {
+            color: red;
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a~p {
+            color: black;
+            font-size: 14px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="www.google.com">www.google.com</a>
+    <a href="www.google.by">www.google.by</a>
+    <a href="www.yandex.com">www.yandex.com</a>
+    <a href="www.yandex.by">"www.yandex.by"</a>
+
+    <img src="https://cdn1.flamp.ru/2004604d49ece8429d1b68c675883aa8_100_100.jpg" alt="">
+    <img src="https://krot.info/uploads/posts/2020-01/1579548372_36-p-belie-foni-s-volkami-91.png" alt="">
+    <img src="https://avatar.ykt2.ru/avatar/small/bymba?1626222181000" alt="">
+    <img src="https://yandex-images.clstorage.net/9DU7Ro370/c6a4351CX7/WbDjvbQxg3TfUM07zznEDDwHyyXY0Aha1-rGK5lLPyMMHuk4AT524nMcWxFsIIdu99InKF0b5BgsMeUBSd1r_0S7oPTwYIh3yw6PP9ktnEVNNu8QteZ4YfqQvlSGS2d3UQf-Yk4CTaR6KzxkbWH5NJG_fns4bKVEK2yrMWixYuhE4amLowHcfN8q4BPDMcIYViHhAYHJen7YjZ1cnmddVnEWsk57CnXOeAkub29Z9g2qsnN2KEqYeTFVkQBTlmvne9moj7AmzVnfDdg2xC_SOXAs1AO1y2FU9bOTUZFZQVR1Pb5kQT5b1V0rLUJ4Q-YuhYpxRSZOp3Ircq0raY5wy173t4S5AOB6wQTTIuIN5BVCDcsivcpWVNmanX-7aG1SQBm1dmY1WcpfMCBjeXvYPbGMTmkZQrFhD1WhOn2qQdlk7rebsjvWetcf3SzHBdE-eAr4OaT7YFr9vbVUu29Nf0QPgEJQMlT2dAEjZmxn1yetjXxaAGydTAhuhR9rlWz2Z_iMkacmxV_xKOYy1S_1MXwRywiA31R125qiTbReSmdtBbp0VBZgwFY8LUlOXtcUlYNebjx4lnk-Q7s5colt12LIqbuyIdZz9DPhM88X1xhYHOkcsPhTesmmmXCJbkxmWxSaaEMMXe1_HipMZmbeJ6uuV00WfKFKOme8OnGebOV2zL-Poj7rVfIuzT3XKfkTXivDGrPjY1zctaV0smJoaWUNvWJhCn3iUjomUk9nwjOzpEZ6JHywfDliuTRLv3nAWNSUrLEp5WHyGP4OzA7yEkMO3j-52EVi_qK7dLhiaENYM7pEXRtU_EI1D1lcRvwWp49Kdi9Rrm0EQpgLSJ1b4nHPvKKkJf1-8DPALfMbxDl4Ducnk91Te_Cwml6RenB3WQ2KU0YHS-t6EyBSY2PhIYihbk0ke7RuLVOiJ0GdS_dByIuwkRDiQfcu2xLFEe0zcQDFC730QnrSubpisEA"
+        alt="">
+
+    <h2 class="title">Lorem, ipsum.</h2>
+    <p class="date">Дата рождения: 17 августа 1911г.</p>
+    <p class="champions">Lorem, ipsum dolor: 1948, 1984, 1999</p>
+    <a href="https://google.com" class="link">Информация</a>
+    <p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nobis doloribus, nemo
+        distinctio adipisci sint sapiente iusto nostrum veniam, omnis aut? Quasi aperiam esse veniam aspernatur, nostrum
+        ea officia quidem, hic maxime odio voluptatum magnam totam tempora nobis. Voluptatibus voluptate aliquid facere
+        delectus perferendis velit, laborum rerum nam natus molestias non perspiciatis illum. Est ea, harum dicta
+        tempore recusandae expedita officiis nobis! A explicabo quaerat nulla nemo quis, commodi doloribus tenetur
+        cumque possimus molestias laudantium rerum excepturi quas quo? Officia rerum saepe doloremque minima quidem
+        voluptates minus, tenetur amet vero impedit, ea dignissimos ratione harum velit maxime ex natus consequuntur
+        est! Reiciendis dolores ipsa itaque id, perspiciatis velit consequuntur earum exercitationem maxime beatae
+        possimus veritatis! Voluptates, sed voluptatibus vel dolor ex temporibus, in quo quidem debitis id facere eaque
+        voluptas sequi repellendus distinctio eius libero laudantium perspiciatis laboriosam! Voluptatum necessitatibus
+        dolorum neque consequatur illo totam distinctio? Quae eligendi dolor perspiciatis et explicabo dolorum iste
+        sequi quia libero vel veritatis dolores corrupti facilis fugit voluptatibus voluptatum maiores corporis aliquid
+        quaerat, officia nesciunt? Ab nemo incidunt sequi! Deleniti possimus accusamus aspernatur? Unde omnis,
+        temporibus autem in suscipit earum recusandae quaerat ex culpa blanditiis accusantium tempore dignissimos
+        voluptates minima eum vitae nihil qui!</p>
+
+    <h2 id="title">Lorem, ipsum.</h2>
+    <p id="date">Дата рождения: 17 августа 1911г.</p>
+    <p id="champions">Lorem, ipsum dolor: 1948, 1984, 1999</p>
+    <a href="https://google.com" id="link">Информация</a>
+    <p id="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nobis doloribus, nemo
+        distinctio adipisci sint sapiente iusto nostrum veniam, omnis aut? Quasi aperiam esse veniam aspernatur, nostrum
+        ea officia quidem, hic maxime odio voluptatum magnam totam tempora nobis. Voluptatibus voluptate aliquid facere
+        delectus perferendis velit, laborum rerum nam natus molestias non perspiciatis illum. Est ea, harum dicta
+        tempore recusandae expedita officiis nobis! A explicabo quaerat nulla nemo quis, commodi doloribus tenetur
+        cumque possimus molestias laudantium rerum excepturi quas quo? Officia rerum saepe doloremque minima quidem
+        voluptates minus, tenetur amet vero impedit, ea dignissimos ratione harum velit maxime ex natus consequuntur
+        est! Reiciendis dolores ipsa itaque id, perspiciatis velit consequuntur earum exercitationem maxime beatae
+        possimus veritatis! Voluptates, sed voluptatibus vel dolor ex temporibus, in quo quidem debitis id facere eaque
+        voluptas sequi repellendus distinctio eius libero laudantium perspiciatis laboriosam! Voluptatum necessitatibus
+        dolorum neque consequatur illo totam distinctio? Quae eligendi dolor perspiciatis et explicabo dolorum iste
+        sequi quia libero vel veritatis dolores corrupti facilis fugit voluptatibus voluptatum maiores corporis aliquid
+        quaerat, officia nesciunt? Ab nemo incidunt sequi! Deleniti possimus accusamus aspernatur? Unde omnis,
+        temporibus autem in suscipit earum recusandae quaerat ex culpa blanditiis accusantium tempore dignissimos
+        voluptates minima eum vitae nihil qui!</p>
+
+    <h2>Lorem, ipsum.</h2>
+    <p>Дата рождения: 17 августа 1911г.</p>
+    <p>Lorem, ipsum dolor: 1948, 1984, 1999</p>
+    <a href="https://google.com">Информация</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nobis doloribus, nemo
+        distinctio adipisci sint sapiente iusto nostrum veniam, omnis aut? Quasi aperiam esse veniam aspernatur, nostrum
+        ea officia quidem, hic maxime odio voluptatum magnam totam tempora nobis. Voluptatibus voluptate aliquid facere
+        delectus perferendis velit, laborum rerum nam natus molestias non perspiciatis illum. Est ea, harum dicta
+        tempore recusandae expedita officiis nobis! A explicabo quaerat nulla nemo quis, commodi doloribus tenetur
+        cumque possimus molestias laudantium rerum excepturi quas quo? Officia rerum saepe doloremque minima quidem
+        voluptates minus, tenetur amet vero impedit, ea dignissimos ratione harum velit maxime ex natus consequuntur
+        est! Reiciendis dolores ipsa itaque id, perspiciatis velit consequuntur earum exercitationem maxime beatae
+        possimus veritatis! Voluptates, sed voluptatibus vel dolor ex temporibus, in quo quidem debitis id facere eaque
+        voluptas sequi repellendus distinctio eius libero laudantium perspiciatis laboriosam! Voluptatum necessitatibus
+        dolorum neque consequatur illo totam distinctio? Quae eligendi dolor perspiciatis et explicabo dolorum iste
+        sequi quia libero vel veritatis dolores corrupti facilis fugit voluptatibus voluptatum maiores corporis aliquid
+        quaerat, officia nesciunt? Ab nemo incidunt sequi! Deleniti possimus accusamus aspernatur? Unde omnis,
+        temporibus autem in suscipit earum recusandae quaerat ex culpa blanditiis accusantium tempore dignissimos
+        voluptates minima eum vitae nihil qui!</p>
+
+</body>
+
+</html>

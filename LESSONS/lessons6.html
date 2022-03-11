@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .header {
+            display: inline-block;
+            background-color: rgb(226, 110, 110);
+            padding: 30px 150px;
+            vertical-align: middle;
+        }
+
+        .logo {
+            display: inline-block;
+            width: 5%;
+            vertical-align: middle;
+        }
+
+        .menu {
+            display: inline-block;
+            width: 75%;
+            vertical-align: middle;
+        }
+
+        .menu li {
+            display: inline;
+            width: 100%;
+            vertical-align: middle;
+            margin: 0 50px;
+            list-style-type: none;
+        }
+
+
+        .btn {
+            display: inline-block;
+            height: 50px;
+            width: 150px;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        a:active {
+            color: #e40b0b;
+        }
+
+        .footer {
+            display: inline-block;
+            background-color: rgb(226, 110, 110);
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            margin: 0 auto;
+            padding: 30px 150px;
+            vertical-align: middle;
+        }
+
+        .footer_column_1 {
+            display: inline-block;
+            width: 33%;
+            float: left;
+        }
+
+        .footer_column_2 {
+            display: inline-block;
+            width: 33%;
+        }
+
+        .footer_column_3 {
+            display: inline-block;
+            width: 33%;
+            float: right;
+        }
+
+        .footer li {
+            width: 100%;
+            vertical-align: middle;
+            margin: 0 50px;
+            color: white;
+            font-size: 25px;
+            list-style-type: none;
+        }
+
+        a {
+            display: inline;
+            width: 100%;
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="https://footinbel.by/wp-content/uploads/2021/02/logo-2.png" alt="footinbel">
+        <ul class="menu">
+            <li class="item"><a href="https://footinbel.by/" target="_blank">Главная</a></li>
+            <li class="item"><a href="https://footinbel.by/news/" target="_blank">Новости</a></li>
+            <li class="item"><a href="https://footinbel.by/videogalereya/" target="_blank">Видео</a></li>
+            <li class="item"><a href="https://footinbel.by/informatsiya/otzyvy/" target="_blank">Отзывы</a></li>
+        </ul>
+        <button class="btn">нажать</button>
+    </header>
+
+    <footer class="wrapper">
+
+        <div class="footer">
+            <div class="asd footer_column_1">
+                <ul>
+                    <li><a href="">Ссылка 1</a></li>
+                    <li><a href="">Ссылка 2</a></li>
+                    <li><a href="">Ссылка 3</a></li>
+                </ul>
+            </div>
+            <div class="asd footer_column_2">
+                <ul>
+                    <li><a href="">Ссылка 4</a></li>
+                    <li><a href="">Ссылка 5</a></li>
+                    <li><a href="">Ссылка 6</a></li>
+                </ul>
+            </div>
+            <div class="asd footer_column_3">
+                <ul>
+                    <li><a href="">Ссылка 7</a></li>
+                    <li><a href="">Ссылка 8</a></li>
+                    <li><a href="">Ссылка 9</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
