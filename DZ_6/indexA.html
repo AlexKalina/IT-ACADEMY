@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ_6A_LINKS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .top {
+            margin-top: 30px;
+        }
+
+        .wrapper {
+            padding: 10px 50px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        .text {
+            display: inline;
+            padding: 5px 10px;
+            font-size: 20px;
+            border-right: 3px solid red;
+        }
+
+        .text:last-child {
+            border-right: none;
+        }
+
+        .text_one {
+            margin-left: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 1-й способ -->
+
+    <div class="wrapper top">
+        <ul>
+            <li class="text"><a href="https://footinbel.by/" target="_blank">Первая ссылка</a></li>
+            <li class="text"><a href="https://footinbel.by/" target="_blank">Вторая ссылка</a></li>
+            <li class="text"><a href="https://footinbel.by/" target="_blank">Третья ссылка</a></li>
+            <li class="text"><a href="https://footinbel.by/" target="_blank">Четвёртая ссылка</a></li>
+            <li class="text"><a href="https://footinbel.by/" target="_blank">Пятая ссылка</a></li>
+        </ul>
+    </div>
+
+    <!-- 2-й способ -->
+
+    <div class="wrapper">
+        <a href="https://footinbel.by/" class="text" target="_blank">Первая ссылка</a>
+        <a href="https://footinbel.by/" class="text" target="_blank">Вторая ссылка</a>
+        <a href="https://footinbel.by/" class="text" target="_blank">Третья ссылка</a>
+        <a href="https://footinbel.by/" class="text" target="_blank">Четвёртая ссылка</a>
+        <a href="https://footinbel.by/" class="text" target="_blank">Пятая ссылка</a>
+    </div>
+
+    <!-- 3-й способ -->
+
+    <div class="wrapper">
+        <table>
+            <tr>
+                <td class="text"><a href="https://footinbel.by/" target="_blank">Первая ссылка</a></td>
+                <td class="text text_one"><a href="https://footinbel.by/" target="_blank">Вторая ссылка</a></td>
+                <td class="text text_one"><a href="https://footinbel.by/" target="_blank">Третья ссылка</a></td>
+                <td class="text text_one"><a href="https://footinbel.by/" target="_blank">Четвёртая ссылка</a></td>
+                <td class="text text_one"><a href="https://footinbel.by/" target="_blank">Пятая ссылка</a></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
