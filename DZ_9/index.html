@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DZ_9_MAKET_FORM</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/device.css">
+	<link rel="stylesheet" media="(min-width: 400px)" href="./css/viewport.css">
+</head>
+
+<body>
+	<form action="#" method="post">
+
+		<!-- раздел: Название статьи -->
+
+		<p class="title">Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+		<label class="text" for="text">
+			<p class="title__top">Название статьи:</p>
+			<input type="text" class="teg">
+		</label>
+
+		<!-- раздел: Рубрика -->
+
+		<lable class="heading">
+			<p class="heading__top">Рубрика:</p>
+			<select name="heading" id="heading">
+				<option value="">программирование</option>
+				<option value="">математика</option>
+				<option value="">физика</option>
+			</select>
+		</lable>
+
+		<!-- раздел: Публикация -->
+
+		<label for="radio">
+			<p class="radio__top">Публикация:</p>
+			<p><input class="radio" type="radio" value="on_the_website">на сайте</p>
+			<p><input class="radio" type="radio" value="in_the_magazine">в журнале</p>
+			<p><input class="radio" type="radio" value="website_and_magazine">на сайте и в журнале</p>
+		</label>
+
+		<!-- раздел: Разрешить комментарии -->
+
+		<label for="checkbox">
+			<p class="checkbox__top">Разрешить комментарии:</p>
+			<input type="checkbox" checked>
+		</label>
+
+		<!-- раздел: Текст статьи -->
+
+		<label for="textarea">
+			<p class="textarea__top">Текст статьи:</p>
+			<textarea name="textarea" id="textarea" cols="45" rows="2"></textarea>
+		</label>
+
+		<!-- раздел: Кнопка отправить -->
+
+		<input class="btn" type="submit" value="Опубликовать">
+	</form>
+</body>
+
+</html>
