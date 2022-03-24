@@ -1,0 +1,105 @@
+@media (min-width: 400px) {
+  form {
+    display: inline-block;
+    width: 720px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+  }
+
+  .title {
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  p.title__top {
+    display: inline-block;
+    margin-right: 75px;
+  }
+  p.heading__top {
+    display: inline-block;
+    margin-right: 145px;
+  }
+  p.radio__top {
+    display: inline-block;
+    margin-right: 113px;
+  }
+
+  label.text {
+    width: 100%;
+  }
+
+  input.teg {
+    display: inline-block;
+    width: 67%;
+    height: 20px;
+    border: 1px solid rgb(235, 235, 235);
+  }
+
+  select#heading {
+    display: inline-block;
+    width: 68%;
+    height: 25px;
+    border: 1px solid rgb(235, 235, 235);
+  }
+
+  .title {
+    margin-bottom: 15px;
+  }
+
+  .radio {
+    margin: 0 0;
+    padding: 0 0;
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  p.radio__top ~ p {
+    margin: 0 0;
+    display: inline-block;
+  }
+
+  input.radio {
+    display: inline-block;
+  }
+  .checkbox__top {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  p.checkbox__top {
+    margin: 0 0;
+    margin-top: 8px;
+  }
+
+  input.checkbox {
+    display: inline-block;
+    height: 20px;
+    margin: 0 0;
+  }
+
+  .textarea__top {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  textarea {
+    width: 708px;
+    height: 30px;
+    border: 1px solid rgb(235, 235, 235);
+  }
+
+  .btn {
+    display: block;
+    width: 130px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 15px;
+    background-color: rgb(240, 240, 240);
+  }
+}
