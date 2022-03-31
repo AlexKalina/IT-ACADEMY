@@ -1,0 +1,41 @@
+.text {
+  font-size: 30px;
+  text-align: justify;
+}
+
+.maket__main {
+  position: relative;
+  height: 450px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.bio {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+
+.maw {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.yay {
+  position: absolute;
+  bottom: 20px;
+  left: 120px;
+}
+
+.no {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+
+.bio:hover,
+.maw:hover,
+.yay:hover {
+  z-index: 1;
+}
